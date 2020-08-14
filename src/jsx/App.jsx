@@ -98,7 +98,6 @@ class App extends Component {
         .enter()
         .append('circle')
         .attr('cx', (d, i) => {
-          console.log(d.Country)
           return projection([countryCenters[d.Country].Long, countryCenters[d.Country].Lat])[0];
         })
         .attr('cy', (d, i) => {
