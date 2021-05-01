@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "caniuse-lite": "^1.0.30001219",
     "d3": "^5.16.0",
     "rc-slider": "^9.3.1",
     "topojson": "^3.0.2",
